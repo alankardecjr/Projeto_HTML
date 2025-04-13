@@ -1,42 +1,84 @@
 <|DOCTYPE html>
 <html>
 <head>
+
+    /*CSS*/
 <style>
 
 	body {
-    background-color: rgb(247, 244, 239);
-}
+        background-color: rgb(250, 250, 250);
+    }
 	
 	h1 {
-    background-color: rgba(170, 170, 170, 30%);
-    color: rgb(215, 35, 35);
-    text-align: center;
+        background-color: rgba(170, 170, 170, 30%);
+        color: rgb(215, 35, 35);
+        font-size: 32px;
+        text-align: center;
+    }
 
 	h2 {
-    color: rgb(66, 66, 66);
-    text-align: right;
-}
+        background-color: rgba(170, 170, 170, 30%);
+        color:black;
+        font-size: 28px;
+        text-align: center;
+    }
 
-	p {
-    color: rgb(17, 17, 17);
-	text-align: center;;
-}
+    h3 {
+        background-color: rgba(170, 170, 170, 30%);
+        color:black;
+        font-size: 24px;
+        text-align: left    ;
+    }
+
+	p  {
+        color: black;
+        font-size: 18px;
+	    text-align: justify;
+    }
 
 	footer {
-    color: rgb(66, 66, 66);
-    text-align: center;
-}
+        background-color: rgba(170, 170, 170, 30%);
+        color: rgb(215, 35, 35);
+        font-weight: 16px;
+        text-align: center;
+    }
 
 	a {
-	color: rgb(215, 35, 35);
-    text-align: justify;
-}
+        background-color: rgba(170, 170, 170, 30%);
+        color: rgb(215, 35, 35);
+        font-weight: 10px;
+        text-align: center;        
+    }
+
+    #container-fotos {
+        background-color: rgba(170, 170, 170, 30%); 
+        border: 10px solid rgba(140, 140, 140, 30%);
+        padding: 20px;        
+    }
+    #list-link:hover {
+        background-color: rgba(100, 100, 100, 30%);
+    }
+
+    #list-fotos:hover {
+        border: 5px solid rgb(215, 35, 35);
+        padding: 0;
+    }
+
+    #container-solicitar-orcamento {
+        width: 250px;
+        height: 170px;
+        background-color: rgba(170, 170, 170, 30%); 
+        border: 10px solid rgba(140, 140, 140, 30%);
+        padding: 25px;        
+    }
 
 
 
 </style>
 </head>
 
+    /*HTML*/
+    
 <head>
 
 	<title>Kardec Art em Porcelanato </title>
@@ -51,35 +93,43 @@
 	<h2>Inove seu conceito, dê um toque de sofisticação em seu ambiente.</h2>
 	<p>Bancadas de porcelanato são resistentes a manchas, riscos e variações de temperatura, tornando-as ideais para cozinhas e banheiros. Além disso, a diversidade de padrões e texturas disponíveis permite que os consumidores escolham opções que complementem o design geral do ambiente.</p>
 
-<h2>Vantagens da banacada em porcelanato.</h2>	
+<h3>Vantagens da banacada em porcelanato.</h2>	
 <ul>
-
-	<li>Facilidade na manutenção.</li>
+	<li>Facilidade na limpeza.</li>
 	<li>Maior gama de opções.</li>
-	<li>Grandes formatos.</li>
+	<li>Variedade de modelos.</li>
 </ul>
 
-<h2>Qual bancada é melhor, porcelanato ou granito?</h2>
+<h3>Qual bancada é melhor, porcelanato ou granito?</h2>
 	
 	<p>Durabilidade. Enquanto o porcelanato é conhecido por sua durabilidade, o granito é ainda mais resistente a arranhões e impactos. O granito é uma rocha natural, o que o torna mais resistente do que o porcelanato, que é fabricado.</P>
 
 	<h2>Nossos projetos:</h2>
 	
-	<img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20220824_095343.jpg" alt=”Bancada banheiro” width="140" height="140" />
-    <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20221011_162620.jpg" alt=”Bancada cozinha” width="140" height="140" />
-
+    <div id="container-fotos">
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20220824_095343.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20221011_162620.jpg" alt=”Bancada" width="140" height="140" id="list-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20220314_170830.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20220718_163400.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
+	    <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20221128_114207.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20230301_182536.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20230606_115342.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20240315_180913.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\IMG-20240813-WA0003.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\IMG-20211007-WA0002.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
+        </div>  
    
       
     <body>
-        <h2>Solicite seu orçamento</h2>
-            <form>
+        <h3>Solicite seu orçamento</h2>
+            <form id="container-solicitar-orcamento">
                 <label for="nome">Nome:    </label>
                 <input type="text" name="nome"  required>
                 <br> 
                 <label for="email">Email:    </label>
                 <input type="email" name="email"  required>
                 <br>
-                <label for="tel">Telefone: </label>
+                <label for="tel">Fone: </label>
                 <input type="tel" name="telefone"  required>
                 <br>              
                 <label for="medidas">Medidas: </label>
@@ -92,8 +142,10 @@
     
 
 
-<footer>Instagran KardecPorcelanato</footer>
-<a href="https://www.instagram.com/kardecporcelanato/">Ascese nosso Insta.</a>
-	
+<a href="https://www.instagram.com/kardecporcelanato" id=list-link> Ascese nosso Instagran.</a>
+
+<footer>Kardec Art em Porcelanato</footer>
+<footer>Telefone: (71) 9 9223-2442</footer>	
+
 </body>
 </html>
