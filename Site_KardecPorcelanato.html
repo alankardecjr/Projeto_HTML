@@ -59,7 +59,11 @@
         background-color: rgba(100, 100, 100, 30%);
     }
 
-    #list-fotos:hover {
+    #link-insta:hover {
+        color: rgb(215, 35, 35);
+    }
+
+    #link-fotos:hover {
         border: 5px solid rgb(215, 35, 35);
         padding: 0;
     }
@@ -107,45 +111,45 @@
 	<h2>Nossos projetos:</h2>
 	
     <div id="container-fotos">
-        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20220824_095343.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
-        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20221011_162620.jpg" alt=”Bancada" width="140" height="140" id="list-fotos"/>
-        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20220314_170830.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
-        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20220718_163400.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
-	    <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20221128_114207.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
-        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20230301_182536.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
-        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20230606_115342.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
-        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20240315_180913.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
-        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\IMG-20240813-WA0003.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
-        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\IMG-20211007-WA0002.jpg" alt=”Bancada” width="140" height="140" id="list-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20220824_095343.jpg" alt=”Bancada” width="140" height="140" id="link-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20221011_162620.jpg" alt=”Bancada" width="140" height="140" id="link-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20220314_170830.jpg" alt=”Bancada” width="140" height="140" id="link-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20220718_163400.jpg" alt=”Bancada” width="140" height="140" id="link-fotos"/>
+	    <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20221128_114207.jpg" alt=”Bancada” width="140" height="140" id="link-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20230301_182536.jpg" alt=”Bancada” width="140" height="140" id="link-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20230606_115342.jpg" alt=”Bancada” width="140" height="140" id="link-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\20240315_180913.jpg" alt=”Bancada” width="140" height="140" id="link-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\IMG-20240813-WA0003.jpg" alt=”Bancada” width="140" height="140" id="link-fotos"/>
+        <img src="C:\Users\Alan Kardec\Pictures\Bachup_Fotos\IMG-20211007-WA0002.jpg" alt=”Bancada” width="140" height="140" id="link-fotos"/>
         </div>  
    
       
     <body>
         <h3>Solicite seu orçamento</h2>
             <form id="container-solicitar-orcamento">
-                <label for="nome">Nome:    </label>
+                <label for="nome" id=list-link> Nome:    </label>
                 <input type="text" name="nome"  required>
                 <br> 
-                <label for="email">Email:    </label>
+                <label for="email" id=list-link>Email:    </label>
                 <input type="email" name="email"  required>
                 <br>
-                <label for="tel">Fone: </label>
-                <input type="tel" name="telefone"  required>
+                <label for="tel" id=list-link>Fone: </label>
+                <input type="tel" name="fone"  required>
                 <br>              
-                <label for="medidas">Medidas: </label>
+                <label for="medidas" id=list-link>Medidas: </label>
                 <textarea name="medidas" cols="30" rows="4"></textarea>
                 <br>
                 <input type="submit" value="Enviar">
             </form>
         
     </body>
-    
 
-
-<a href="https://www.instagram.com/kardecporcelanato" id=list-link> Ascese nosso Instagran.</a>
+    <div id="link-insta"> Acesse nosso Instagran </div>
+    <a href="https://www.instagram.com/kardecporcelanato" onclick="acessar()"> *Acessar*</a>
 
 <footer>Kardec Art em Porcelanato</footer>
 <footer>Telefone: (71) 9 9223-2442</footer>	
 
 </body>
 </html>
+
